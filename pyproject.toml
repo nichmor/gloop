@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gloop"
+version = "0.1.0"
+description = ""
+authors = ["nichitaelgraf"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
